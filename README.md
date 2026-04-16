@@ -18,4 +18,11 @@ Fokus utama proyek ini adalah membangun sistem manajemen artikel menggunakan fra
 3. Layouting dan Komponen Modular (Modul 3)
 - View Layout: Menggunakan konsep template utama pada file main.php agar bagian navigasi dan footer konsisten di setiap halaman menggunakan renderSection.
 - View Cell: Membuat komponen modular Artikel Terkini untuk menampilkan daftar artikel terbaru di sidebar secara otomatis.
-- 
+
+4. Sistem Login dan Manajemen Role (Modul 4)
+- Autentikasi: Membangun fitur login dan logout menggunakan UserController untuk mengamankan akses ke area admin.
+- Manajemen Role: Menerapkan perbedaan hak akses antara Admin dan User. Admin memiliki akses penuh untuk melakukan CRUD artikel, sementara User hanya dapat membaca artikel.
+- Keamanan Session: Menggunakan session CodeIgniter 4 untuk menyimpan status login dan identitas pengguna.
+
+# 📸 Hasil Tampilan Website
+
